@@ -45,8 +45,10 @@ body {
 
 .sat {
     color: blue;
+    font-weight: bold;
 }
 
 .sun, .holi {
     color: red;
+    font-weight: bold;
 }
