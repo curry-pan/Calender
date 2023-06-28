@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.head {
+    vertical-align: middle;
+}
+
+.curYM {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    height: 10vw;
+    max-height: 100px;
+    margin: 0 auto;
+}
+
+.calendar .day {
+    width: calc(100% / 7);
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar .head {
+    width: calc(100% / 7);
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.today {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.sat {
+    color: blue;
+}
+
+.sun, .holi {
+    color: red;
+}
